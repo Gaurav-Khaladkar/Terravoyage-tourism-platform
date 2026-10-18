@@ -1,5 +1,6 @@
 <!-- ============================================================================== -->
 <!-- 🧭 TERRAVOYAGE ENTERPRISE GLOBAL EXPEDITIONS & TOURISM PLATFORM                -->
+<!-- COMPLETE PRODUCTION TECHNICAL SPECIFICATION & COMPREHENSIVE ARCHITECTURE MANUAL-->
 <!-- ============================================================================== -->
 
 <p align="center">
@@ -7,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/terravoyage/tourism-platform">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=false&width=900&height=50&lines=⚡+Enterprise+Spring+Boot+3.2.3+%2B+Java+17+REST+Microservices;✨+React+19+%2B+Vite+6+Glassmorphic+Exploration+Portal;🤖+Python+FastAPI+AI+Trip+Copilot+%26+Dynamic+Pricing+Engine;🛡️+Stateless+JWT+Security+%2B+Role-Based+Access+Control;🎟️+Zero-Deposit+Reservations%2C+Promo+Coupons+%26+Digital+Boarding+Passes" alt="Animated Subtitle" />
+  <a href="https://github.com/Gaurav-Khaladkar/Terravoyage-tourism-platform">
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=false&width=900&height=50&lines=⚡+Java+17+%2B+Spring+Boot+3.2.3+RESTful+Enterprise+Services;✨+React+19+%2B+Vite+6+Glassmorphic+Exploration+Portal;🤖+Python+FastAPI+AI+Trip+Copilot+%26+Dynamic+Pricing+Engine;🛡️+Stateless+JWT+Security+%2B+Role-Based+Access+Control;🎟️+Zero-Deposit+Reservations%2C+Promo+Coupons+%26+Digital+Boarding+Passes" alt="Animated Subtitle" />
   </a>
 </p>
 
@@ -24,27 +25,75 @@
 
 ---
 
-## 📑 Quick Navigation
+## 📑 Comprehensive Table of Contents
 <div align="center">
+  <a href="#-project-overview"><b>Overview</b></a> •
+  <a href="#-languages-and-technologies-breakdown"><b>Languages & Tech</b></a> •
   <a href="#-system-architecture"><b>Architecture</b></a> •
-  <a href="#-key-industry-features"><b>Core Features</b></a> •
-  <a href="#-technology-stack-matrix"><b>Tech Stack</b></a> •
+  <a href="#-database-schema--domain-model"><b>Data Models</b></a> •
+  <a href="#-definite-functions--code-breakdown"><b>Definite Functions</b></a> •
+  <a href="#-complete-rest-api-catalog"><b>REST APIs</b></a> •
+  <a href="#-ai-microservice-specification"><b>AI Microservice</b></a> •
+  <a href="#-frontend-component-architecture"><b>Frontend Components</b></a> •
   <a href="#-pre-configured-demo-credentials"><b>Credentials</b></a> •
-  <a href="#-live-application-access"><b>Live URLs</b></a> •
-  <a href="#-step-by-step-execution-guide"><b>Getting Started</b></a> •
-  <a href="#-core-rest-api-catalog"><b>REST APIs</b></a> •
-  <a href="#-directory-structure"><b>Project Structure</b></a>
+  <a href="#-execution-guide"><b>Run Guide</b></a>
 </div>
 
 ---
 
-## 🏛️ System Architecture
+## 🧭 Project Overview
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Architecture-Clean%20Domain--Driven%20Design%20(DDD)-informational?style=flat-square&logo=diagram-next&color=06b6d4" />
-  <img src="https://img.shields.io/badge/Pattern-Polyglot%20Microservices%20%2B%20BFF-important?style=flat-square&logo=spring&color=10b981" />
-  <img src="https://img.shields.io/badge/Database-In--Memory%20H2%20%2F%20PostgreSQL%2016-blue?style=flat-square&logo=postgresql&color=336791" />
-</div>
+**TerraVoyage** is an industry-grade, polyglot enterprise tourism, expedition, and luxury vacation booking management platform. It combines a robust **Java 17 / Spring Boot 3.2** RESTful backend, a high-performance **React 19 & Vite 6** glassmorphic web application, and an asynchronous **Python FastAPI AI Trip Intelligence microservice**.
+
+### Key Capabilities:
+- **Expedition Discovery & Multi-Filtering:** Dynamic package catalog filtered by category (`LUXURY`, `ADVENTURE`, `CULTURAL`, `SAFARI`, `BEACH_WELLNESS`), difficulty (`EASY`, `MODERATE`, `CHALLENGING`), destinations, and price sliders.
+- **Day-by-Day Interactive Itinerary:** Day-wise schedules with accommodation details and included meal plans.
+- **Reservation & Pricing Engine:** Automated party pricing with adult rates, 30% child discount, optional VIP airport chauffeur, and medical trip protection.
+- **Coupon Discount Engine:** Real-time percentage discount calculations with spend caps (`EARLYBIRD15`, `WANDER2026`, `GLOBETREK10`).
+- **Simulated Payment Gateway:** Multi-channel payments (Credit Card, PayPal, UPI) with zero-friction status updates (`PENDING` ➔ `CONFIRMED`).
+- **Digital Boarding Pass & Travel Voucher:** Real-time boarding pass with barcode simulation, download/print functionality, and confetti celebration.
+- **Backoffice Telemetry Dashboard:** Financial metrics (Gross Revenue, Confirmed/Pending Bookings, Active Inventory) and customer booking status management.
+- **AI Travel Copilot:** Customized itinerary planner, weather-adaptive packing advice, and seasonal dynamic pricing forecasting.
+
+---
+
+## 💻 Languages and Technologies Breakdown
+
+### 1. Languages Employed
+| Language | Implementation Scope | Primary Usage |
+| :--- | :--- | :--- |
+| **Java 17 LTS** | Backend Core | Enterprise REST APIs, Spring Security 6, JPA Repositories, Domain Entities, Business Services |
+| **JavaScript (ES6+) / JSX** | Frontend Client | React 19 SPA, Vite build pipeline, asynchronous API layer, interactive UI state |
+| **Python 3.11** | AI Microservice | FastAPI trip planning engine, dynamic pricing algorithm, NLP sentiment classifier |
+| **SQL / JPQL** | Data Access | Relational queries, aggregate financial functions (`SUM`, `COUNT`), index optimizations |
+| **HTML5 & CSS3** | Presentation Tier | Semantic markup, Obsidian & Emerald Glassmorphism design system, flexbox, CSS grid |
+| **YAML / Markdown** | Configuration & Docs | Spring Boot properties, Docker Compose orchestration, OpenAPI 3 annotations |
+
+---
+
+### 2. Technologies & Frameworks Matrix
+| Category | Framework / Library | Version | Technical Purpose |
+| :--- | :--- | :--- | :--- |
+| **Backend Framework** | Spring Boot | `3.2.3` | Standalone enterprise microservice container |
+| **Security Framework** | Spring Security | `6.2.2` | Filter-based authentication, RBAC authorization, CORS & CSRF control |
+| **JWT Engine** | JJWT (`io.jsonwebtoken`) | `0.11.5` | Stateless HMAC-SHA256 token issuance & signature validation |
+| **ORM / Data Access** | Spring Data JPA / Hibernate | `6.4.4.Final` | Object-Relational Mapping, entity lifecycle, JPQL queries |
+| **Dev Database** | H2 Database | Embedded | Zero-configuration in-memory DB with web console (`/h2-console`) |
+| **Prod Database** | PostgreSQL / MySQL | `16` / `8.3` | Production ACID-compliant relational persistence |
+| **API Documentation** | Springdoc OpenAPI / Swagger | `2.3.0` | Automated OpenAPI 3.0 specification & interactive UI (`/swagger-ui.html`) |
+| **Validation** | Jakarta Bean Validation | JSR-380 | Request payload constraints (`@NotNull`, `@Email`, `@Min`, `@Future`) |
+| **Frontend Framework** | React | `19.0.0` | Component-based reactive UI rendering |
+| **Frontend Tooling** | Vite | `6.2.0` | Ultra-fast ESM bundler & API proxy configuration |
+| **UI Iconography** | Lucide React | `1.57.0` | Lightweight SVG icons |
+| **Visual Effects** | Canvas-Confetti | `1.9.4` | Particle explosion animation upon booking confirmation |
+| **AI Microservice** | FastAPI | `0.110.0` | High-performance asynchronous Python REST API |
+| **Data Validation** | Pydantic | `2.6.0` | Python type enforcement and JSON serialization |
+| **ASGI Web Server** | Uvicorn | `0.28.0` | Lightning-fast ASGI web server for Python |
+| **Containerization** | Docker & Docker Compose | `3.8` | Multi-container multi-stage production deployments |
+
+---
+
+## 🏛️ System Architecture
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#111827', 'primaryTextColor': '#f8fafc', 'primaryBorderColor': '#10b981', 'lineColor': '#34d399', 'secondaryColor': '#0e1522', 'tertiaryColor': '#1f2937' }}}%%
@@ -105,255 +154,324 @@ graph TD
 
 ---
 
-## 🌟 Highlight Features Showcase
+## 💾 Database Schema & Domain Model
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🏔️ Handcrafted Tour Expeditions</h3>
-      <p align="center">
-        <img src="https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius:12px;" alt="Swiss Alps"/>
-      </p>
-      <ul>
-        <li><b>Dynamic Catalog:</b> Swiss Alps, Bali Temples, Kyoto Sakura, Serengeti Safari, and Amalfi Catamaran.</li>
-        <li><b>Trek Difficulty:</b> Easy, Moderate, and Challenging peak expeditions.</li>
-        <li><b>Itinerary Timelines:</b> Day-by-Day morning, afternoon, and evening schedules with boutique stays.</li>
-        <li><b>Verified Ratings:</b> Aggregate star scores with verified traveler review badges.</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎟️ Smart Reservation & Digital Passes</h3>
-      <p align="center">
-        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius:12px;" alt="Bali Temples"/>
-      </p>
-      <ul>
-        <li><b>Family & Group Pricing:</b> Adult rates + automatic <b>30% child discount</b>.</li>
-        <li><b>Add-on Services:</b> VIP Chauffeur Transfer (+$60) & Medical Protection (+$35/guest).</li>
-        <li><b>Real-Time Slot Deduction:</b> Automated inventory tracking to prevent overbooking.</li>
-        <li><b>Digital Boarding Pass:</b> Print-ready voucher with VIP reference and confetti celebration.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🏷️ Enterprise Coupon Engine</h3>
-      <p align="center">
-        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius:12px;" alt="Kyoto Sakura"/>
-      </p>
-      <ul>
-        <li><b>Live Validation:</b> Evaluates minimum spend, expiry dates, and percentage savings instantly.</li>
-        <li><code>EARLYBIRD15</code> — <b>15% Off</b> (Min spend $500, max discount $400)</li>
-        <li><code>WANDER2026</code> — <b>20% Off</b> (Min spend $1,000, max discount $600)</li>
-        <li><code>GLOBETREK10</code> — <b>10% Off</b> (Min spend $200, max discount $200)</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3 align="center">🤖 AI Trip Copilot & Analytics</h3>
-      <p align="center">
-        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=600&q=80" width="100%" style="border-radius:12px;" alt="Serengeti Safari"/>
-      </p>
-      <ul>
-        <li><b>AI Trip Planner:</b> Generates custom schedules based on companion type and budget.</li>
-        <li><b>Smart Packing Assistant:</b> AI-generated weather-adaptive gear checklists.</li>
-        <li><b>Dynamic Pricing Forecasts:</b> Demand surge calculation based on seasonal occupancy.</li>
-        <li><b>Backoffice Telemetry:</b> Real-time gross revenue, confirmed bookings, and occupancy KPIs.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+The platform uses a normalized relational model managed through JPA annotations:
+
+```mermaid
+erDiagram
+    USERS ||--o{ BOOKINGS : places
+    USERS ||--o{ REVIEWS : writes
+    DESTINATIONS ||--o{ TOUR_PACKAGES : contains
+    TOUR_PACKAGES ||--o{ ITINERARY_DAYS : includes
+    TOUR_PACKAGES ||--o{ BOOKINGS : reserved_for
+    TOUR_PACKAGES ||--o{ REVIEWS : reviewed_by
+    BOOKINGS ||--|| PAYMENT_TRANSACTIONS : paid_with
+    COUPONS ||--o{ BOOKINGS : discounts
+
+    USERS {
+        bigint id PK
+        varchar fullName
+        varchar email UK
+        varchar password
+        varchar phone
+        varchar role
+        varchar avatarUrl
+        timestamp createdAt
+    }
+
+    DESTINATIONS {
+        bigint id PK
+        varchar name
+        varchar country
+        varchar region
+        varchar climate
+        varchar bestSeason
+        text description
+        varchar imageUrl
+        boolean featured
+    }
+
+    TOUR_PACKAGES {
+        bigint id PK
+        varchar title
+        bigint destination_id FK
+        varchar category
+        int durationDays
+        int durationNights
+        double basePrice
+        double discountedPrice
+        varchar difficulty
+        int maxGroupSize
+        int availableSlots
+        double rating
+        int reviewCount
+        varchar bannerImageUrl
+        text overview
+        boolean active
+    }
+
+    ITINERARY_DAYS {
+        bigint id PK
+        bigint tour_package_id FK
+        int dayNumber
+        varchar title
+        text description
+        varchar accommodation
+        varchar mealsIncluded
+    }
+
+    BOOKINGS {
+        bigint id PK
+        varchar bookingReference UK
+        bigint user_id FK
+        bigint tour_package_id FK
+        date travelDate
+        int adultCount
+        int childCount
+        double baseAmount
+        double discountAmount
+        double addOnAmount
+        double totalAmount
+        varchar status
+        varchar couponCode
+        varchar specialRequests
+        timestamp createdAt
+    }
+
+    PAYMENT_TRANSACTIONS {
+        bigint id PK
+        varchar transactionReference UK
+        bigint booking_id FK
+        double amount
+        varchar paymentMethod
+        varchar paymentStatus
+        timestamp paidAt
+    }
+
+    COUPONS {
+        bigint id PK
+        varchar code UK
+        double discountPercent
+        double maxDiscount
+        double minSpend
+        date validUntil
+        boolean active
+    }
+
+    REVIEWS {
+        bigint id PK
+        bigint user_id FK
+        bigint tour_package_id FK
+        int rating
+        varchar title
+        text comment
+        boolean verifiedBooking
+        timestamp createdAt
+    }
+```
 
 ---
 
-## 🛠️ Technology Stack Matrix
+## ⚙️ Definite Functions & Code Breakdown
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        TERRAVOYAGE TECH STACK                          │
-├───────────────────┬──────────────────────────────────┬─────────────────┤
-│ Component         │ Framework / Library              │ Version         │
-├───────────────────┼──────────────────────────────────┼─────────────────┤
-│ Backend Core      │ Java Development Kit (JDK)       │ 17 LTS / 24     │
-│ Framework         │ Spring Boot Web & REST           │ 3.2.3           │
-│ Security          │ Spring Security 6 & JJWT         │ 0.11.5          │
-│ Persistence       │ Spring Data JPA / Hibernate      │ 6.4.4.Final     │
-│ Database (Dev)    │ In-Memory H2 Database Console    │ Latest          │
-│ Database (Prod)   │ PostgreSQL / MySQL Connector/J   │ 16 / 8.3        │
-│ API Documentation │ Springdoc OpenAPI / Swagger UI   │ 2.3.0           │
-│ Frontend SPA      │ React 19 & Vite 6 (ESM)          │ 19.0 / 6.2      │
-│ UI & Icons        │ Lucide React & Canvas-Confetti   │ 1.57 / 1.9      │
-│ Styling           │ Obsidian Glassmorphism CSS       │ Native / Fluid  │
-│ AI Microservice   │ Python 3.11, FastAPI, Pydantic   │ 0.110.0         │
-│ Containerization  │ Docker & Docker Compose          │ 3.8 Multi-Stage │
-└───────────────────┴──────────────────────────────────┴─────────────────┘
-```
+### 1. Spring Boot Backend Services (`backend/src/main/java`)
+
+#### 🛡️ `JwtTokenProvider.java`
+- `generateToken(Authentication authentication)`: Constructs a compact JWT signed with HMAC-SHA256 (`Keys.hmacShaKeyFor`), embedding `userId`, `fullName`, and `roles` with a 24-hour expiration window.
+- `getUsernameFromJwt(String token)`: Parses claims body to extract user email subject.
+- `validateToken(String authToken)`: Validates signature integrity, expiry, and structure without throwing unhandled exceptions.
+
+#### 🔑 `AuthService.java`
+- `login(AuthRequest request)`: Authenticates credentials via Spring's `AuthenticationManager`, generates JWT token, and returns user identity metadata.
+- `register(RegisterRequest request)`: Enforces unique email constraint, hashes password using BCrypt (`BCryptPasswordEncoder`), assigns default role `ROLE_CUSTOMER`, and generates initial authentication session.
+
+#### 🏔️ `TourPackageService.java`
+- `getAllPackages()`: Retrieves all active packages mapped to DTO representations.
+- `getFeaturedPackages()`: Fetches top 6 expeditions sorted descending by rating.
+- `searchPackages(keyword, category, difficulty, destinationId, minPrice, maxPrice)`: Executes multi-parameter JPQL query filtering across destination title, country name, categories, difficulty grades, and price boundaries.
+- `createPackage(TourPackageDTO dto)`: Persists new expedition package and cascades creation of day-by-day `ItineraryDay` entities.
+- `updatePackage(Long id, TourPackageDTO dto)`: Updates package details, duration, pricing, and updates itinerary list.
+- `deletePackage(Long id)`: Performs soft deactivation (`active = false`).
+- `mapToDTO(TourPackage pkg)`: Bidirectional conversion decoupling JPA persistence entities from REST API payloads.
+
+#### 📋 `BookingService.java`
+- `createBooking(UserPrincipal currentUser, BookingRequestDTO dto)`:
+  - Verifies requested slot availability (`availableSlots >= adults + children`).
+  - Computes base rate: `(adultCount * unitPrice) + (childCount * unitPrice * 0.70)`.
+  - Calculates selected add-ons: VIP transfer ($60) + Travel insurance ($35/person).
+  - Validates and applies promotional coupon code.
+  - Generates unique reference code: `TV-YYYY-XXXXXX`.
+  - Atomically decrements remaining package slots and sets booking status to `CONFIRMED`.
+- `getUserBookings(UserPrincipal currentUser)`: Retrieves all bookings for the logged-in customer sorted by creation date.
+- `cancelBooking(String reference, UserPrincipal currentUser)`: Validates ownership or admin privileges, transitions status to `CANCELLED`, and releases slots back to tour inventory.
+- `updateBookingStatus(String reference, BookingStatus status)`: Admin endpoint to advance booking lifecycle (`CONFIRMED`, `COMPLETED`, `CANCELLED`).
+
+#### 🏷️ `CouponService.java`
+- `validateCoupon(String code, Double baseAmount)`: Evaluates promo code existence, active status, expiration date, and minimum spend requirements. Calculates percentage discount up to the coupon's maximum discount cap.
+
+#### 💳 `PaymentService.java`
+- `processPayment(UserPrincipal currentUser, PaymentIntentDTO dto)`: Simulates real-time card/PayPal authorization, generates unique transaction ID (`TXN-timestamp-XXXX`), binds transaction to booking, and marks status as `SUCCESS`.
+
+#### 📊 `AnalyticsService.java`
+- `getDashboardStats()`: Aggregates total platform revenue (`sum(totalAmount)` where status is confirmed/completed), total booking counts, breakdown by category, and active inventory count.
+
+---
+
+### 2. Frontend Application (`frontend/src/`)
+
+#### 🌐 `api.js`
+- `login(email, password)`: POSTs to `/api/v1/auth/login`, stores JWT token and user profile in `localStorage`.
+- `register(fullName, email, password, phone, role)`: Registers new traveler profile.
+- `getPackages(params)`: Calls `/api/v1/packages` with query string parameters for live filtering.
+- `validateCoupon(code, baseAmount)`: Instant asynchronous coupon validation.
+- `createBooking(bookingData)`: Posts reservation payload with `Authorization: Bearer <token>` header.
+- `checkout(paymentData)`: Simulates instant payment processing.
+- `getMyBookings()`: Loads traveler's active reservations.
+- `cancelBooking(reference)`: Cancels reservation and triggers slot release.
+- `getAdminAnalytics()`: Loads telemetry stats for admin dashboard.
+- `getAIRecommendation(preferences)`: Invokes AI Copilot endpoint with travel style and budget.
+
+#### ⚛️ UI Components
+- `Navbar.jsx`: Sticky glassmorphism header with live brand logo, AI Copilot trigger, role-based navigation links, and 1-click sign out.
+- `HeroSection.jsx`: Cinematic hero banner with multi-tab category pills, destination keyword input, trek difficulty selector, and budget slider.
+- `PackageCard.jsx`: High-res imagery with hover zoom, discount badges, review averages, and direct "Itinerary" and "Book" buttons.
+- `TourModal.jsx`: Modal displaying day-by-day accordion schedule, stay/meal plans, inclusions/exclusions, and verified review submission form.
+- `BookingModal.jsx`: 3-step interactive booking wizard:
+  - *Step 1:* Date picker, guest counters (with 30% child discount), add-on options, promo coupon validation, and live price calculator.
+  - *Step 2:* Simulated checkout with payment method tabs (Credit Card, PayPal, UPI) and 256-bit encryption indicator.
+  - *Step 3:* Digital Boarding Pass voucher with simulated barcode, traveler details, print button, and confetti particle burst.
+- `MyBookingsModal.jsx`: Customer reservation hub allowing travelers to view active bookings, cancel trips, and download tickets.
+- `AdminDashboardModal.jsx`: Administrative backoffice displaying gross revenue KPIs, occupancy rates, and reservation status management table.
+- `AICopilotModal.jsx`: AI expedition architect allowing travelers to input budget, companion type, and travel style to receive custom plans.
+- `AuthModal.jsx`: Sign In / Register dialog with **1-Click Instant Demo Login Buttons** for Admin and Traveler.
+
+---
+
+### 3. Python AI Microservice (`ai-service/app.py`)
+
+- `POST /api/ai/plan-itinerary`: Accepts travel destination, duration in days, budget, and travel style. Generates structured day-by-day morning/afternoon/evening activities, estimated daily spend, packing advice, and sustainability scores.
+- `POST /api/ai/predict-demand`: Calculates dynamic seasonal pricing multipliers factoring in peak summer/winter months and current occupancy rates.
+- `POST /api/ai/sentiment-analysis`: Analyzes customer feedback to detect sentiment (`POSITIVE`/`NEGATIVE`), confidence score, and detected praise keywords.
+
+---
+
+## 📡 Complete REST API Catalog
+
+All 22 endpoints are documented with OpenAPI 3.0 and testable via Swagger UI at `http://localhost:8080/swagger-ui.html`.
+
+### Authentication & Users
+| Method | Endpoint | Access | Request Body | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `POST` | `/api/v1/auth/login` | Public | `{"email": "...", "password": "..."}` | Authenticate and obtain JWT token |
+| `POST` | `/api/v1/auth/register` | Public | `{"fullName": "...", "email": "...", "password": "...", "phone": "..."}` | Register a new customer account |
+| `GET` | `/api/v1/auth/me` | User | None (Bearer Token) | Get profile of currently logged-in user |
+
+### Tour Packages & Catalog
+| Method | Endpoint | Access | Query Parameters | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `GET` | `/api/v1/packages` | Public | `keyword`, `category`, `difficulty`, `destinationId`, `maxPrice` | Search and filter tour packages |
+| `GET` | `/api/v1/packages/featured` | Public | None | Retrieve top 6 highest-rated expeditions |
+| `GET` | `/api/v1/packages/{id}` | Public | None | Get full package itinerary and details |
+| `POST` | `/api/v1/packages` | Admin | `TourPackageDTO` | Create a new tour package |
+| `PUT` | `/api/v1/packages/{id}` | Admin | `TourPackageDTO` | Update an existing tour package |
+| `DELETE` | `/api/v1/packages/{id}` | Admin | None | Soft delete / deactivate tour package |
+
+### Destinations
+| Method | Endpoint | Access | Query Parameters | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `GET` | `/api/v1/destinations` | Public | None | Get all world destinations with climate & seasons |
+| `GET` | `/api/v1/destinations/featured` | Public | None | Get featured destinations |
+| `GET` | `/api/v1/destinations/{id}` | Public | None | Get destination by ID |
+| `POST` | `/api/v1/destinations` | Admin | `Destination` | Create a new destination |
+
+### Bookings & Reservations
+| Method | Endpoint | Access | Request Body | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `POST` | `/api/v1/bookings` | User | `{"tourPackageId": 1, "travelDate": "2026-11-01", "adultCount": 2, "childCount": 0, "couponCode": "EARLYBIRD15"}` | Create expedition reservation |
+| `GET` | `/api/v1/bookings/my` | User | None (Bearer Token) | List bookings belonging to current user |
+| `GET` | `/api/v1/bookings/{ref}` | User | None (Bearer Token) | Retrieve booking details and digital pass |
+| `POST` | `/api/v1/bookings/{ref}/cancel`| User | None (Bearer Token) | Cancel reservation and release slots |
+
+### Payments & Checkout
+| Method | Endpoint | Access | Request Body | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `POST` | `/api/v1/payments/checkout` | User | `{"bookingReference": "TV-2026-X89J", "amount": 2490.0, "paymentMethod": "CREDIT_CARD"}` | Simulate payment transaction |
+
+### Coupons & Promotions
+| Method | Endpoint | Access | Query Parameters | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `GET` | `/api/v1/coupons/validate` | Public | `code=EARLYBIRD15&baseAmount=2000` | Validate promo code and calculate discount |
+
+### Reviews & Ratings
+| Method | Endpoint | Access | Request Body | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `GET` | `/api/v1/reviews/package/{id}` | Public | None | List reviews for a specific package |
+| `GET` | `/api/v1/reviews/recent` | Public | None | List most recent global reviews |
+| `POST` | `/api/v1/reviews` | User | `{"tourPackageId": 1, "rating": 5, "title": "...", "comment": "..."}` | Submit verified traveler review |
+
+### Admin & Telemetry
+| Method | Endpoint | Access | Request Body | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `GET` | `/api/v1/admin/analytics` | Admin | None (Bearer Token) | Retrieve platform revenue and booking stats |
+| `GET` | `/api/v1/admin/bookings` | Admin | None (Bearer Token) | List all customer bookings across platform |
+| `PUT` | `/api/v1/admin/bookings/{ref}/status` | Admin | `{"status": "CONFIRMED"}` | Update booking lifecycle status |
+
+### AI Trip Copilot
+| Method | Endpoint | Access | Request Body | Description |
+| :---: | :--- | :---: | :--- | :--- |
+| `POST` | `/api/v1/ai/recommend` | Public | `{"travelStyle": "LUXURY", "maxBudget": 3500, "companionType": "COUPLE"}` | Generate custom AI expedition plan |
 
 ---
 
 ## 👥 Pre-Configured Demo Credentials
 
-<div align="center">
-  <p><i>The authentication modal includes <b>1-Click Instant Demo Login Buttons</b> for immediate evaluation:</i></p>
-</div>
+The web application login modal includes **1-Click Instant Demo Login Buttons**:
 
-| Badge | Role | Email Address | Password | Permissions & Access Scope |
-| :---: | :--- | :--- | :--- | :--- |
-| <img src="https://img.shields.io/badge/ADMIN-f59e0b?style=for-the-badge&logo=shield&logoColor=white"/> | **Administrator** | `admin@terravoyage.com` | `admin123` | Backoffice analytics, gross revenue KPIs, booking status manager, tour package CRUD |
-| <img src="https://img.shields.io/badge/TRAVELER-10b981?style=for-the-badge&logo=user&logoColor=white"/> | **Verified Traveler** | `traveler@terravoyage.com` | `traveler123` | Search expeditions, customize bookings, apply promo coupons, download vouchers, post reviews |
-| <img src="https://img.shields.io/badge/AGENT-06b6d4?style=for-the-badge&logo=compass&logoColor=white"/> | **Mountain Guide** | `guide@terravoyage.com` | `guide123` | Assigned expedition manifest access |
+| Role | Email Address | Password | Permissions & Capabilities |
+| :--- | :--- | :--- | :--- |
+| **Administrator** | `admin@terravoyage.com` | `admin123` | Full backoffice telemetry, revenue KPIs, booking status manager, package CRUD |
+| **Verified Traveler** | `traveler@terravoyage.com` | `traveler123` | Search expeditions, customize bookings, apply promo coupons, download vouchers, post reviews |
+| **Mountain Guide** | `guide@terravoyage.com` | `guide123` | Assigned expedition manifest access |
 
 ---
 
-## 🚀 Live Application Access
+## 🏃 Execution Guide
 
-The unified full-stack application is currently running live in the background:
-
-<div align="center">
-
-| Service | Direct Link | Description |
-| :--- | :--- | :--- |
-| **🌐 Full-Stack Web Portal** | [**http://localhost:8080**](http://localhost:8080) | Interactive tourism booking platform & digital passes |
-| **📖 Swagger OpenAPI UI** | [**http://localhost:8080/swagger-ui.html**](http://localhost:8080/swagger-ui.html) | Interactive REST API tester and schema explorer |
-| **📡 OpenAPI 3.0 Raw JSON** | [**http://localhost:8080/v3/api-docs**](http://localhost:8080/v3/api-docs) | Machine-readable API specifications (Postman ready) |
-| **🗄️ H2 Database Console** | [**http://localhost:8080/h2-console**](http://localhost:8080/h2-console) | In-memory database console (`JDBC: jdbc:h2:mem:terravoyagedb`, User: `sa`, Password: empty) |
-
-</div>
-
----
-
-## 🏃 Step-by-Step Execution Guide
-
-### Option 1: Unified Single-Command Run (Spring Boot + Built React Frontend)
-
-The React frontend has been built directly into Spring Boot's `src/main/resources/static` directory. Starting Spring Boot serves the **entire application** on a single port:
+### Option 1: Unified Single-Command Run (Recommended)
+Because the React frontend is compiled directly into Spring Boot's static folder (`backend/src/main/resources/static`), running the Spring Boot backend serves the **entire full-stack application** on port 8080:
 
 ```powershell
-# Navigate to the backend directory
 cd C:\Users\hp\.gemini\antigravity-ide\scratch\terravoyage-tourism-platform\backend
-
-# Launch the unified server
 mvn spring-boot:run
 ```
 
-Open your browser to: **[http://localhost:8080](http://localhost:8080)**
+- 🌐 **Web Application Portal:** [http://localhost:8080](http://localhost:8080)
+- 📖 **Interactive Swagger UI:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+- 🗄️ **H2 Database Console:** [http://localhost:8080/h2-console](http://localhost:8080/h2-console)  
+  *(JDBC URL: `jdbc:h2:mem:terravoyagedb`, User: `sa`, Password: empty)*
 
 ---
 
-### Option 2: Active Development Mode (Vite Hot-Reloading + Backend API)
-
-To make live UI updates with instant hot-reloading:
-
+### Option 2: Frontend Development with Hot-Reloading
 ```powershell
-# Terminal 1: Run Spring Boot REST API
+# Terminal 1: Start Spring Boot REST API
 cd backend
 mvn spring-boot:run
 
-# Terminal 2: Run Vite Dev Server with hot-reload & proxy
+# Terminal 2: Start Vite Dev Server (with automatic /api proxy)
 cd frontend
 npm run dev
 ```
-
-Open your browser to: **[http://localhost:5173](http://localhost:5173)**  
-*(Vite proxies all `/api` calls directly to `http://localhost:8080`)*
+Open **[http://localhost:5173](http://localhost:5173)** in your browser.
 
 ---
 
 ### Option 3: Full-Stack Docker Compose Deployment
-
-To orchestrate PostgreSQL 16, Spring Boot backend, Python AI service, and Nginx frontend in isolated containers:
-
 ```bash
 docker-compose up --build
 ```
-
----
-
-## 📡 Core REST API Catalog
-
-<details open>
-<summary><b>🔍 Click to Expand REST API Endpoint Matrix (22 Endpoints)</b></summary>
-<br/>
-
-| Method | Endpoint | Authorization | Description | Sample Response |
-| :---: | :--- | :---: | :--- | :---: |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/auth/login` | Public | Authenticate user & issue JWT token | `AuthResponse` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/auth/register` | Public | Register new customer account | `AuthResponse` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/auth/me` | User | Get profile details of current user | `UserPrincipal` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/packages` | Public | Search packages (keyword, category, price, difficulty) | `List<TourPackageDTO>` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/packages/featured` | Public | Retrieve top 6 highest-rated expeditions | `List<TourPackageDTO>` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/packages/{id}` | Public | Get full package itinerary and inclusions | `TourPackageDTO` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/packages` | Admin | Create a new expedition tour package | `TourPackageDTO` |
-| <img src="https://img.shields.io/badge/PUT-f59e0b?style=flat-square&logoColor=white"/> | `/api/v1/packages/{id}` | Admin | Update an existing tour package | `TourPackageDTO` |
-| <img src="https://img.shields.io/badge/DELETE-ef4444?style=flat-square&logoColor=white"/> | `/api/v1/packages/{id}` | Admin | Deactivate an expedition package | `ApiResponse<Void>` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/destinations` | Public | Get all world destinations with climate & seasons | `List<Destination>` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/destinations/featured` | Public | Get top featured destinations | `List<Destination>` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/coupons/validate` | Public | Validate promo code (`code`, `baseAmount`) | `CouponValidationDTO` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/bookings` | User | Reserve an expedition and calculate total | `BookingResponseDTO` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/bookings/my` | User | List bookings belonging to current user | `List<BookingResponseDTO>` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/bookings/{ref}` | User | Retrieve digital boarding pass voucher | `BookingResponseDTO` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/bookings/{ref}/cancel`| User | Cancel booking reservation & refund | `BookingResponseDTO` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/payments/checkout` | User | Simulate secure multi-channel payment | `PaymentTransaction` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/reviews/package/{id}` | Public | List verified reviews for a package | `List<ReviewDTO>` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/reviews` | User | Publish verified review and update rating avg | `ReviewDTO` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/admin/analytics` | Admin | Retrieve platform telemetry & revenue metrics | `DashboardStatsDTO` |
-| <img src="https://img.shields.io/badge/GET-3b82f6?style=flat-square&logoColor=white"/> | `/api/v1/admin/bookings` | Admin | List all platform customer bookings | `List<BookingResponseDTO>` |
-| <img src="https://img.shields.io/badge/PUT-f59e0b?style=flat-square&logoColor=white"/> | `/api/v1/admin/bookings/{ref}/status` | Admin | Update booking status (`CONFIRMED`, `COMPLETED`, `CANCELLED`) | `BookingResponseDTO` |
-| <img src="https://img.shields.io/badge/POST-22c55e?style=flat-square&logoColor=white"/> | `/api/v1/ai/recommend` | Public | AI Travel Copilot custom plan & packing tips | `AIRecommendation` |
-
-</details>
-
----
-
-## 📁 Directory Structure
-
-```text
-terravoyage-tourism-platform/
-├── 📄 docker-compose.yml                     # Multi-service container orchestration
-├── 📄 README.md                              # This animated documentation
-│
-├── 📂 backend/                               # Spring Boot 3.2.3 Java Backend
-│   ├── 📄 pom.xml                            # Maven build descriptor (Java 17, Security, JPA)
-│   ├── 📄 Dockerfile                         # Multi-stage container build
-│   └── 📂 src/main/
-│       ├── 📂 java/com/terravoyage/tourism/
-│       │   ├── ☕ TourismPlatformApplication.java
-│       │   ├── 📂 domain/                    # JPA Entities (TourPackage, Booking, Destination, etc.)
-│       │   ├── 📂 repository/                # Data Repositories with custom JPQL queries
-│       │   ├── 📂 service/                   # Business logic, coupon engine, booking workflow
-│       │   ├── 📂 controller/                # REST Controllers (22 endpoints)
-│       │   ├── 📂 dto/                       # Request & Response Data Transfer Objects
-│       │   ├── 📂 security/                  # JWT Provider, Auth Filter, SecurityConfig
-│       │   ├── 📂 config/                    # Swagger OpenAPI config & Data Initializer
-│       │   └── 📂 exception/                 # Global Exception Handler (RFC 7807)
-│       └── 📂 resources/
-│           ├── 📄 application.yml            # Spring configuration (H2, JWT, Swagger)
-│           └── 📂 static/                    # Built React frontend assets (HTML, CSS, JS)
-│
-├── 📂 frontend/                              # React 19 + Vite 6 Modern Web App
-│   ├── 📄 package.json                       # React, Vite, Lucide, Canvas-Confetti
-│   ├── 📄 vite.config.js                     # Proxy configuration & static build target
-│   ├── 📄 index.html                         # Typography & viewport setup
-│   └── 📂 src/
-│       ├── 📄 main.jsx                       # React root entrypoint
-│       ├── 📄 App.jsx                        # Application shell & state orchestrator
-│       ├── 📄 index.css                      # Obsidian glassmorphic design system
-│       ├── 📄 api.js                         # API Client with JWT authorization handling
-│       └── 📂 components/                    # Modular components
-│           ├── ⚛️ Navbar.jsx                 # Glass navbar with user session & role badges
-│           ├── ⚛️ HeroSection.jsx             # Cinematic hero & multi-filter search console
-│           ├── ⚛️ PackageCard.jsx             # Tour card with discount tags & highlights
-│           ├── ⚛️ DestinationExplorer.jsx     # Visual continent & climate cards
-│           ├── ⚛️ TourModal.jsx               # Day-by-day itinerary & verified reviews
-│           ├── ⚛️ BookingModal.jsx            # 3-step booking wizard with ticket pass
-│           ├── ⚛️ MyBookingsModal.jsx         # Traveler reservation registry & cancellations
-│           ├── ⚛️ AdminDashboardModal.jsx     # Telemetry charts & booking management
-│           ├── ⚛️ AICopilotModal.jsx          # AI trip planner & packing assistant
-│           └── ⚛️ AuthModal.jsx               # Sign In / Register with 1-click demo logins
-│
-└── 📂 ai-service/                            # Python FastAPI AI Microservice
-    ├── 🐍 app.py                             # Itinerary planner, dynamic pricing & sentiment API
-    ├── 📄 requirements.txt                   # FastAPI, Pydantic, Uvicorn
-    └── 📄 Dockerfile                         # Python container specification
-```
+Orchestrates PostgreSQL 16 (`:5432`), Spring Boot (`:8080`), Python FastAPI (`:8000`), and Nginx React frontend (`:80`).
 
 ---
 
@@ -362,5 +480,5 @@ terravoyage-tourism-platform/
 </p>
 
 <p align="center">
-  <b>TerraVoyage Global Expeditions Ltd.</b> • Engineered with Spring Boot 3 &amp; React 19
+  <b>TerraVoyage Global Expeditions Ltd.</b> • Engineered with Spring Boot 3, React 19 &amp; FastAPI
 </p>
