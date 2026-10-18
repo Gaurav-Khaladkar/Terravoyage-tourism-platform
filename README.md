@@ -4,7 +4,7 @@
 <!-- ============================================================================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,185,129,6,182,212,245,158,11&height=260&section=header&text=🧭%20TerraVoyage&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Enterprise%20Luxury%20Tourism%20%26%20Global%20Expedition%20Platform&descAlignY=58&descAlign=50" width="100%" alt="TerraVoyage Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,185,129,6,182,212,245,158,11&height=260&section=header&text=TerraVoyage&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Enterprise%20Luxury%20Tourism%20and%20Global%20Expeditions&descAlignY=58&descAlign=50" width="100%" alt="TerraVoyage Header" />
 </p>
 
 <p align="center">
