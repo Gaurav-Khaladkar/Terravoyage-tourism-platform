@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Database Service
+  postgres-db:
+    image: postgres:16-alpine
+    container_name: terravoyage-postgres
+    environment:
+      POSTGRES_DB: terravoyagedb
+      POSTGRES_USER: terravoyage_user
+      POSTGRES_PASSWORD: enterprise_password_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U terravoyage_user -d terravoyagedb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - terravoyage-net
+
+  # 2. Spring Boot 3 Java Backend
+  backend-service:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: terravoyage-backend
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-db:5432/terravoyagedb
+      SPRING_DATASOURCE_USERNAME: terravoyage_user
+      SPRING_DATASOURCE_PASSWORD: enterprise_password_2026
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.PostgreSQLDialect
+    depends_on:
+      postgres-db:
+        condition: service_healthy
+    networks:
+      - terravoyage-net
+
+  # 3. Python AI Intelligence Microservice
+  ai-copilot-service:
+    build:
+      context: ./ai-service
+      dockerfile: Dockerfile
+    container_name: terravoyage-ai-copilot
+    ports:
+      - "8000:8000"
+    networks:
+      - terravoyage-net
+
+  # 4. React Vite Frontend
+  frontend-ui:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: terravoyage-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend-service
+    networks:
+      - terravoyage-net
+
+volumes:
+  postgres_data:
+
+networks:
+  terravoyage-net:
+    driver: bridge
