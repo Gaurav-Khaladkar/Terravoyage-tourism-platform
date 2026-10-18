@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="100%" height="60">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <style>
+      .typing-text {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        fill: url(#grad);
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      @keyframes cycleText {
+        0%, 18% { opacity: 1; transform: translateY(0); }
+        20%, 98% { opacity: 0; transform: translateY(-10px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      .t1 { animation: t1Anim 15s infinite; }
+      .t2 { animation: t2Anim 15s infinite; }
+      .t3 { animation: t3Anim 15s infinite; }
+      .t4 { animation: t4Anim 15s infinite; }
+      .t5 { animation: t5Anim 15s infinite; }
+
+      @keyframes t1Anim {
+        0%, 16% { opacity: 1; }
+        20%, 100% { opacity: 0; }
+      }
+      @keyframes t2Anim {
+        0%, 19% { opacity: 0; }
+        21%, 37% { opacity: 1; }
+        41%, 100% { opacity: 0; }
+      }
+      @keyframes t3Anim {
+        0%, 40% { opacity: 0; }
+        42%, 58% { opacity: 1; }
+        62%, 100% { opacity: 0; }
+      }
+      @keyframes t4Anim {
+        0%, 61% { opacity: 0; }
+        63%, 79% { opacity: 1; }
+        83%, 100% { opacity: 0; }
+      }
+      @keyframes t5Anim {
+        0%, 82% { opacity: 0; }
+        84%, 98% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(450, 30)">
+    <text class="typing-text t1">⚡ Java 17 &amp; Spring Boot 3.2.3 RESTful Enterprise Services</text>
+    <text class="typing-text t2">✨ React 19 &amp; Vite 6 Glassmorphic Exploration Portal</text>
+    <text class="typing-text t3">🤖 Python FastAPI AI Trip Copilot &amp; Dynamic Pricing Engine</text>
+    <text class="typing-text t4">🛡️ Stateless JWT Security &amp; Role-Based Access Control</text>
+    <text class="typing-text t5">🎟️ Zero-Deposit Reservations, Promo Coupons &amp; Digital Passes</text>
+  </g>
+</svg>

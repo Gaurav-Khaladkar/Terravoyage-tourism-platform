@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/Gaurav-Khaladkar/Terravoyage-tourism-platform">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=false&width=900&height=50&lines=⚡+Java+17+%2B+Spring+Boot+3.2.3+RESTful+Enterprise+Services;✨+React+19+%2B+Vite+6+Glassmorphic+Exploration+Portal;🤖+Python+FastAPI+AI+Trip+Copilot+%26+Dynamic+Pricing+Engine;🛡️+Stateless+JWT+Security+%2B+Role-Based+Access+Control;🎟️+Zero-Deposit+Reservations%2C+Promo+Coupons+%26+Digital+Boarding+Passes" alt="Animated Subtitle" />
+    <img src="./docs/assets/animated-subtitle.svg" width="900" alt="⚡ Java 17 + Spring Boot 3.2.3 • React 19 • Python FastAPI AI Copilot • JWT Security" />
   </a>
 </p>
 
